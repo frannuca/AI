@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fran/code/AI/NLP/include/word2vec.h
+
+/home/fran/code/AI/NLP/src/word2vec.cpp
+../include/word2vec.h
+/home/fran/code/AI/NLP/include/word2vec.h
+

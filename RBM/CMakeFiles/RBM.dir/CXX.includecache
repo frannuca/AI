@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fran/code/AI/RBM/src/Graph.cpp
+RBM/include/Graph.h
+/home/fran/code/AI/RBM/src/RBM/include/Graph.h
+
+RBM/include/Graph.h
+

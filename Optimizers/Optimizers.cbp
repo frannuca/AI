@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Optimizers" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\NLP\;CMake Files\RBM\;CMake Files\Optimizers\;CMake Files\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/fran/code/AI/Optimizers" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Optimizers">
+         <Option output="/home/fran/code/AI/build/Optimizers" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fran/code/AI/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_TEST_DYN_LINK" />
+            <Add directory="/home/fran/code/AI" />
+            <Add directory="/home/fran/code/AI/Optimizers/include" />
+            <Add directory="/home/fran/code/AI/Optimizers/src" />
+            <Add directory="/home/fran/code/AI/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 Optimizers" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Optimizers/fast">
+         <Option output="/home/fran/code/AI/build/Optimizers" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/fran/code/AI/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_TEST_DYN_LINK" />
+            <Add directory="/home/fran/code/AI" />
+            <Add directory="/home/fran/code/AI/Optimizers/include" />
+            <Add directory="/home/fran/code/AI/Optimizers/src" />
+            <Add directory="/home/fran/code/AI/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 Optimizers/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/fran/code/AI/Optimizers/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/AI_Types.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/AugLagragian.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/BFGS.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/BackTrackingLine.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/GradientDescent.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/IOptimizer.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/NewtonMethod.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/include/OptStatistics.h">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/AugLagragian.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/BFGS.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/BackTrackingLine.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/GradientDescent.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/IOptimizer.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/NewtonMethod.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/OptStatistics.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/src/main.cpp">
+         <Option target="Optimizers"/>
+      </Unit>
+      <Unit filename="/home/fran/code/AI/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/NLP/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\NLP\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/NLP/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\NLP\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/RBM/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\RBM\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/RBM/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\RBM\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Optimizers\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/Optimizers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Optimizers\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+      <Unit filename="/home/fran/code/AI/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
