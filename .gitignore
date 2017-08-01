@@ -2,18 +2,20 @@
 *.d
 
 # Directories
-**/CMakeFiles/
+CMakeFiles/
+build/
 
-#M akefiles
-cmake_install.cmake
+#Makefiles
+*.cmake
 Makefile
+*.cbp
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-*.cbp
+
 
 # Precompiled Headers
 *.gch

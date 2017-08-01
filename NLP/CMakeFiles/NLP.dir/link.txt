@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libNLP.so -o ../build/libNLP.so CMakeFiles/NLP.dir/src/word2vec.cpp.o  -L/home/fran/intel/compilers_and_libraries_2017.4.196/linux/mkl/lib/intel64_lin 
